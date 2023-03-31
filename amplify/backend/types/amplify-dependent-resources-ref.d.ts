@@ -7,7 +7,7 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "auth": {
-    "aliyouawsproject61e4636c": {
+    "aliyouawsprojectea31745e": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
@@ -15,9 +15,6 @@ export type AmplifyDependentResourcesAttributes = {
       "UserPoolArn": "string",
       "UserPoolId": "string",
       "UserPoolName": "string"
-    },
-    "userPoolGroups": {
-      "aliyoucognitoGroupRole": "string"
     }
   }
 }

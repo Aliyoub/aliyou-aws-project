@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "aliyouawsproject61e4636c_identitypool_61e4636c",
+    "identityPoolName": "aliyouawsprojectea31745e_identitypool_ea31745e",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "aliyou61e4636c",
-    "userPoolName": "aliyouawsproject61e4636c_userpool_61e4636c",
+    "resourceNameTruncated": "aliyouea31745e",
+    "userPoolName": "aliyouawsprojectea31745e_userpool_ea31745e",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,31 +31,15 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "aliyou61e4636c_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "aliyouea31745e_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "61e4636c",
-    "resourceName": "aliyouawsproject61e4636c",
+    "sharedId": "ea31745e",
+    "resourceName": "aliyouawsprojectea31745e",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "default",
-    "userPoolGroupList": [
-      "aliyoucognito"
-    ],
+    "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
-    "useEnabledMfas": true,
-    "authRoleArn": {
-      "Fn::GetAtt": [
-        "AuthRole",
-        "Arn"
-      ]
-    },
-    "unauthRoleArn": {
-      "Fn::GetAtt": [
-        "UnauthRole",
-        "Arn"
-      ]
-    },
-    "breakCircularDependency": true,
-    "dependsOn": []
+    "useEnabledMfas": true
   }
 }

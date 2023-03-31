@@ -1,6 +1,5 @@
 {
   "AppSyncApiName": "aliyouawsproject",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
-  "DynamoDBEnableServerSideEncryption": false,
-  "AuthModeLastUpdated": "2023-03-31T03:11:33.114Z"
+  "DynamoDBEnableServerSideEncryption": false
 }

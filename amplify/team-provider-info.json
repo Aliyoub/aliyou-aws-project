@@ -1,43 +1,23 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-aliyouawsproject-dev-195714-authRole",
-      "UnauthRoleArn": "arn:aws:iam::510468338445:role/amplify-aliyouawsproject-dev-195714-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::510468338445:role/amplify-aliyouawsproject-dev-195714-authRole",
+      "AuthRoleName": "amplify-aliyouawsproject-dev-81635-authRole",
+      "UnauthRoleArn": "arn:aws:iam::510468338445:role/amplify-aliyouawsproject-dev-81635-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::510468338445:role/amplify-aliyouawsproject-dev-81635-authRole",
       "Region": "eu-west-3",
-      "DeploymentBucketName": "amplify-aliyouawsproject-dev-195714-deployment",
-      "UnauthRoleName": "amplify-aliyouawsproject-dev-195714-unauthRole",
-      "StackName": "amplify-aliyouawsproject-dev-195714",
-      "StackId": "arn:aws:cloudformation:eu-west-3:510468338445:stack/amplify-aliyouawsproject-dev-195714/4df1fbf0-cf24-11ed-98f5-0a23125368b4",
-      "AmplifyAppId": "d2dpm8kelvm8fo"
+      "DeploymentBucketName": "amplify-aliyouawsproject-dev-81635-deployment",
+      "UnauthRoleName": "amplify-aliyouawsproject-dev-81635-unauthRole",
+      "StackName": "amplify-aliyouawsproject-dev-81635",
+      "StackId": "arn:aws:cloudformation:eu-west-3:510468338445:stack/amplify-aliyouawsproject-dev-81635/973e7510-cf8b-11ed-8d0e-0ec8a443181a",
+      "AmplifyAppId": "d3pn3fqx5wgdm1"
     },
     "categories": {
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d2dpm8kelvm8fo",
-          "type": "cicd"
-        }
+      "auth": {
+        "aliyouawsprojectea31745e": {}
       },
       "api": {
         "aliyouawsproject": {}
-      },
-      "auth": {
-        "aliyouawsproject61e4636c": {},
-        "userPoolGroups": {}
       }
-    }
-  },
-  "prod": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-aliyouawsproject-prod-200004-authRole",
-      "UnauthRoleArn": "arn:aws:iam::510468338445:role/amplify-aliyouawsproject-prod-200004-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::510468338445:role/amplify-aliyouawsproject-prod-200004-authRole",
-      "Region": "eu-west-3",
-      "DeploymentBucketName": "amplify-aliyouawsproject-prod-200004-deployment",
-      "UnauthRoleName": "amplify-aliyouawsproject-prod-200004-unauthRole",
-      "StackName": "amplify-aliyouawsproject-prod-200004",
-      "StackId": "arn:aws:cloudformation:eu-west-3:510468338445:stack/amplify-aliyouawsproject-prod-200004/b384a3a0-cf24-11ed-83b0-0a0917b27fc8",
-      "AmplifyAppId": "d2dpm8kelvm8fo"
     }
   }
 }
